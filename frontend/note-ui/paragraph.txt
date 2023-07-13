@@ -1,0 +1,6 @@
+All the content and graphics on this tutorial are the property of tutorialspoint.com. Any content from 
+tutorialspoint.com or this tutorial may not be redistributed or reproduced in any way, shape, or form 
+without the written permission of tutorialspoint.com. Failure to do so is a violation of copyright laws.
+This tutorial may contain inaccuracies or errors and tutorialspoint provides no guarantee regarding the 
+accuracy of the site or its contents including this tutorial. If you discover that the tutorialspoint.com site 
+or this tutorial content contains some errors, please contact us at webmaster@tutorialspoint.com

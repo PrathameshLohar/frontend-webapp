@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="text-center my-4"><h2 class="">Notes</h2></div>
+
+<table class="table table-bordered table-light table-hover " *ngIf="notes && notes.length >0">
+    <thead>
+        <tr>
+            <!-- <th>Id</th> -->
+            <th>Name</th>
+            <th>Note</th>
+            <th>Edit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor= "let note of notes">
+            <!-- <td>{{note.id}}</td> -->
+            <td>{{note.name}}</td>
+            <td>{{note.description}}</td>
+            <td><a [routerLink]="['/notes', 'edit', note.id]">Details</a></td>
+        </tr>
+    </tbody>
+  </table>
+<p *ngIf="!notes || notes.length<=0">No Notes Found :)</p>
+
+</div>
